@@ -51,7 +51,7 @@ main{
 
 .card{
     background-color: #D9D9D9;
-    width: 150px;
+    padding: 50px;
     height: 150px;
     border-radius: 3px;
 
