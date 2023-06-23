@@ -45,6 +45,9 @@ main{
     display: flex;
 }
 
+.carrousel{
+    display: flex
+}
 
 .card{
     background-color: #D9D9D9;
