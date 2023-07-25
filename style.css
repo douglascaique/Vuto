@@ -83,7 +83,7 @@ main{
 }
 
 .card button{
-    background-color: rgb(29, 230, 219);
+    background-color: crimson;
     height: 30px;
     border: none;
     padding: 4px;
