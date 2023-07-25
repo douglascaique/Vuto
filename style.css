@@ -64,9 +64,26 @@ main{
 
 }
 
+.card h1{
+    font-size: 1.2rem;
+}
 
+.card h2{
+    font-size: .9rem;
+    color: #aaaa;
+}
 
-
+.card button{
+    background-color: crimson;
+    height: 30px;
+    border: none;
+    padding: 4px;
+    width: 80%;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 12px;
+}
 
 
 
