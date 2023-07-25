@@ -64,6 +64,14 @@ main{
 
 }
 
+.card div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    height: 50%;
+}
 .card h1{
     font-size: 1.2rem;
 }
