@@ -11,7 +11,7 @@ a, p, li, ul{
 
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: url(/imagens/Fundo.svg);
+    background: url(./imagens/Fundo.svg);
     background-color: lightgray 0% 0% / 100px 100px repeat;
     color: linear-gradient(0deg, #000 0%, #000 100%), #1E1E1E;
 }
@@ -54,7 +54,8 @@ main{
     background-color: #D9D9D9;
     width: 300px;
     height: 300px;
-    border-radius: 3px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px #aaaa;
 
     display: flex;
     align-items: center;
