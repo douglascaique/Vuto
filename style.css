@@ -81,6 +81,7 @@ main{
 .card h2{
     font-size: .9rem;
     color: #4e4e4e;
+    margin-bottom: 10px;
 }
 
 .card button{
@@ -89,7 +90,7 @@ main{
     width: 130px;
     border: none;
     border-radius: 10px;
-    
+
     color: white;
     font-size: 1rem;
     font-weight: bold;
