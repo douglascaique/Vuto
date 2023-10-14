@@ -85,7 +85,7 @@ main{
 
 .card button{
     background-color: crimson;
-    height: 50px;
+    height: 60px;
     width: 130px;
     border: none;
     border-radius: 10px;
@@ -94,8 +94,7 @@ main{
     color: white;
     font-size: 1rem;
     font-weight: bold;
-
-    align-content: center;
+    
 }
 
 .card button::hover{
