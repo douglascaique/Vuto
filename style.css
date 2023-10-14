@@ -96,6 +96,10 @@ main{
     font-weight: bold;
 }
 
+.card button::hover{
+    
+}
+
 
 
 .rodape{
