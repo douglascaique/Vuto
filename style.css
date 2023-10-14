@@ -11,7 +11,8 @@ a, p, li, ul{
 
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: url(./imagens/Fundo.svg);
+    background: rgba(77, 61, 50, 0.932);
+    background-image: url(./imagens/Fundo.svg);
     background-color: lightgray 0% 0% / 100px 100px repeat;
     color: linear-gradient(0deg, #000 0%, #000 100%), #1E1E1E;
 }
@@ -85,13 +86,14 @@ main{
 .card button{
     background-color: crimson;
     height: 30px;
+    width: 50px;
     border: none;
-    padding: 4px;
-    width: 80%;
+    border-radius: 10px;
+
+    padding: 10px;
     color: white;
     font-size: 1rem;
     font-weight: bold;
-    border-radius: 12px;
 }
 
 
