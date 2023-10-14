@@ -94,6 +94,8 @@ main{
     color: white;
     font-size: 1rem;
     font-weight: bold;
+
+    align-content: center;
 }
 
 .card button::hover{
