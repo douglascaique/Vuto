@@ -4,10 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     outline: none;
-}
-
-a, p, li, ul{
-    list-style: none;
+    color: black;
 }
 
 body{
@@ -16,78 +13,97 @@ body{
 }
 
 
+nav a{
+    display: block;
+}
 .cabecalho {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 10px;
-    
+    padding:10px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 20px;
+    position: fixed;
+
 }
 
 
-.card{
-    background-color: #D9D9D9;
-    width: 300px;
-    height: 300px;
-    border-radius: 12px;
-    box-shadow: 4px 4px 12px #aaaa;
-
+.cabecalho-social-media{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
+    gap: 20px;
+}
+
+
+
+.banner{
+    width: 100%;
+    padding: 200px 0;
+    display: flex;
+    position: relative;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
 
 }
 
-/*.card div{
+.container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    gap: 4px;
-    height: 50%;
-}*/
-
-.card img{
-   
-    
+    padding: 10vb 0;
 }
 
-.card h1{
-    font-size: 1.2rem;
+.subtitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
 }
 
-.card h2{
-    font-size: .9rem;
-    color: #4e4e4e;
-    margin-bottom: 10px;
+.lancamentos span{
+    height: 100%;
+    width: 100%;
+    color: black;
 }
 
-.card button{
-    background-color: crimson;
-    height: 60px;
-    width: 130px;
-    border: none;
-    border-radius: 10px;
-    margin-top: 30px;
 
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    background-color: black;
+}
+
+.card span{
     color: white;
-    font-size: 1rem;
-    font-weight: bold;
-    
+    display: none;
+
 }
 
-/* FOOTER */
 
 .rodape{
+    background-color: white;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-
-    
     padding: 10px;
-    
-    background-color: white;
+    margin-top: 50px;
 }
