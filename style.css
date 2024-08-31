@@ -27,8 +27,6 @@ nav a{
 .cabecalho-menu {
     display: flex;
     gap: 20px;
-    position: fixed;
-
 }
 
 
