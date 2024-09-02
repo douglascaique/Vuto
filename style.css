@@ -16,17 +16,18 @@ body{
 nav a{
     display: block;
 }
-.cabecalho {
+.cabecalho{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
     padding:10px;
+    justify-content: space-evenly;
 }
 
-.cabecalho-menu {
+
+.menu {
     display: flex;
-    gap: 20px;
+    gap: 25px;
 }
 
 
@@ -34,14 +35,15 @@ nav a{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
 
-
 .banner{
     width: 100%;
-    padding: 200px 0;
+    padding: 100px 0;
     display: flex;
     position: relative;
     gap: 30px;
@@ -55,7 +57,7 @@ nav a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10vb 0;
+    padding: 3vb 0;
 }
 
 .subtitle{
@@ -97,11 +99,9 @@ nav a{
 
 
 .rodape{
-    background-color: white;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    margin-top: 50px;
+  gap: 20px;
+  justify-content: center;
+  padding: 10px 0;
+  align-items: center;
+  flex-direction: column;
 }
