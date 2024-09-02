@@ -97,6 +97,12 @@ nav a{
 
 }
 
+.links-plataformas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 .rodape{
   gap: 20px;
