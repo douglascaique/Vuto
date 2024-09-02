@@ -104,6 +104,13 @@ nav a{
     justify-content: center;
 }
 
+.agenda-item{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+
 .rodape{
   gap: 20px;
   justify-content: center;
