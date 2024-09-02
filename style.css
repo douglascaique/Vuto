@@ -110,6 +110,10 @@ nav a{
     gap: 40px;
 }
 
+.data-mes{
+    flex-direction: column;
+}
+
 
 .rodape{
   gap: 20px;
