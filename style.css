@@ -15,7 +15,8 @@ body{
 
 nav a{
     display: block;
-    
+    color: black;
+    /* text-decoration: none; */
 }
 .cabecalho{
     display: flex;
