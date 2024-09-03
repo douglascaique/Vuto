@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,22 +7,28 @@
     /* color: black; */
 }
 
-body{
+body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: lightgray 0% 0% / 100px 100px repeat;
+    /* background-color: lightgray 0% 0% / 100px 100px repeat; */
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg, #9a9a9a, #fcfcff, #ffffff, #a7a7a7);
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
 }
 
 
-nav a{
+nav a {
     display: block;
     color: black;
     /* text-decoration: none; */
 }
-.cabecalho{
+
+.cabecalho {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding:10px;
+    padding: 10px;
     justify-content: space-evenly;
 }
 
@@ -41,7 +47,7 @@ nav a{
 
 
 
-.social-media{
+.social-media {
     display: flex;
     gap: 20px;
     justify-content: center;
@@ -50,7 +56,7 @@ nav a{
 }
 
 
-.banner{
+.banner {
     width: 100%;
     padding: 100px 0;
     display: flex;
@@ -62,14 +68,14 @@ nav a{
 
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 3vb 0;
 }
 
-.subtitle{
+.subtitle {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -80,7 +86,7 @@ nav a{
     color: white;
 }
 
-.lancamentos span{
+.lancamentos span {
     height: 100%;
     width: 100%;
     color: black;
@@ -88,7 +94,7 @@ nav a{
 
 
 
-.cards{
+.cards {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -96,7 +102,7 @@ nav a{
     padding: 20px;
 }
 
-.card{
+.card {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -104,13 +110,13 @@ nav a{
     background-color: black;
 }
 
-.card-titulo{
+.card-titulo {
     color: white;
     display: flex;
     justify-content: center;
 }
 
-.links-plataformas{
+.links-plataformas {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -120,21 +126,21 @@ nav a{
 
 
 
-#plataformas-musicas figure a img{
+#plataformas-musicas figure a img {
     /* width: 125px; */
     filter: grayscale(100%);
     opacity: 0.6;
 }
 
-#plataformas-musicas figure a img:hover{
+#plataformas-musicas figure a img:hover {
     /* width: 125px; */
     filter: grayscale(0%);
     opacity: 1;
-    transition:all .3s ease 0s;
+    transition: all .3s ease 0s;
 }
 
 
-.agenda-item{
+.agenda-item {
     display: flex;
     align-items: center;
     gap: 40px;
@@ -144,7 +150,7 @@ nav a{
     margin-top: 15px;
 }
 
-.data-mes{
+.data-mes {
     display: block;
     /* flex-direction: column;
     align-items: center;
@@ -153,11 +159,11 @@ nav a{
     font-size: 1.3vw;
 }
 
-.data-mes p strong{
+.data-mes p strong {
     font-size: 45px;
 }
 
-.data-mes p{
+.data-mes p {
     text-align: left;
     font-size: 23px;
     font-weight: 700;
@@ -165,27 +171,27 @@ nav a{
     line-height: 26px;
 }
 
-.local-cidade{
+.local-cidade {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 58.33333%;
 }
 
-.local-cidade p strong{
+.local-cidade p strong {
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 2px;
 }
 
-.local-cidade p{
+.local-cidade p {
     font-size: 15px;
     color: #333;
     letter-spacing: 1px;
     padding: 0;
 }
 
-figure{
+figure {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -195,7 +201,7 @@ figure{
 
 
 
-.copy{
+.copy {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -203,43 +209,65 @@ figure{
 }
 
 
-.agenda-cta{
+.agenda-cta {
     background-color: black;
     color: white;
     padding: 10px 30px;
     border-radius: 5px;
     text-align: center;
     cursor: pointer;
-    
+
 }
 
-.info-link{
-    color:white;
+.info-link {
+    color: white;
     text-decoration: none;
 }
 
 
-.rodape{
+.rodape {
     gap: 20px;
     justify-content: center;
     padding: 10px 0;
     align-items: center;
     flex-direction: column;
-  }
+}
 
+@media (min-width: 769px) {
+    .menu-icon {
+        display: none;
+        /* Esconde o ícone do menu hamburger */
+    }
+}
 
 /* Telas menores que 768px */
 @media (max-width: 768px) {
     .cabecalho {
-        flex-direction: column;
+        flex-direction: row;
         align-items: flex-start;
     }
 
+    .cabecalho.menu.show{
+        width: 80%;
+        /* justify-content: center; */
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .social-media{
+        display: none;
+    }
     .menu {
         flex-direction: column;
         gap: 10px;
         padding: 10px;
-        display: none; /* Esconde o menu por padrão */
+        display: none;
+        /* Esconde o menu por padrão */
     }
 
     .menu-icon {
@@ -249,7 +277,8 @@ figure{
     }
 
     .menu.show {
-        display: flex; /* Mostra o menu quando a classe 'show' é adicionada */
+        display: flex;
+        /* Mostra o menu quando a classe 'show' é adicionada */
     }
 
     .banner {
