@@ -114,16 +114,19 @@ nav a{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 5vh;
 }
 
+
+
 #plataformas-musicas figure a img{
-    width: 125px;
+    /* width: 125px; */
     filter: grayscale(100%);
     opacity: 0.6;
 }
 
 #plataformas-musicas figure a img:hover{
-    width: 125px;
+    /* width: 125px; */
     filter: grayscale(0%);
     opacity: 1;
     transition:all .3s ease 0s;
