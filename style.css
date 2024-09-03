@@ -4,7 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     outline: none;
-    color: black;
+    /* color: black; */
 }
 
 body{
@@ -15,6 +15,7 @@ body{
 
 nav a{
     display: block;
+    
 }
 .cabecalho{
     display: flex;
@@ -28,16 +29,23 @@ nav a{
 .menu {
     display: flex;
     gap: 25px;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000;
+    letter-spacing: 1px;
+    padding: 23px 25px 15px 25px;
 }
 
 
-.cabecalho-social-media{
+
+.social-media{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
     gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
 
 
@@ -65,6 +73,10 @@ nav a{
     flex-direction: column;
     align-items: center;
     padding: 100px 0;
+
+    padding: 10px;
+    background-color: black;
+    color: white;
 }
 
 .lancamentos span{
@@ -91,10 +103,10 @@ nav a{
     background-color: black;
 }
 
-.card span{
+.card-titulo{
     color: white;
-    display: none;
-
+    display: flex;
+    justify-content: center;
 }
 
 .links-plataformas{
@@ -104,22 +116,109 @@ nav a{
     justify-content: center;
 }
 
+#plataformas-musicas figure a img{
+    width: 125px;
+    filter: grayscale(100%);
+    opacity: 0.6;
+}
+
+#plataformas-musicas figure a img:hover{
+    width: 125px;
+    filter: grayscale(0%);
+    opacity: 1;
+    transition:all .3s ease 0s;
+}
+
+
 .agenda-item{
     display: flex;
-    flex-direction: row;
+    align-items: center;
     gap: 40px;
+    width: 90%;
+    border-bottom: solid 2px #d4d4d4;
+    margin-bottom: 30px;
+    margin-top: 15px;
 }
 
 .data-mes{
+    display: block;
+    /* flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bolder; */
+    font-size: 1.3vw;
+}
+
+.data-mes p strong{
+    font-size: 45px;
+}
+
+.data-mes p{
+    text-align: left;
+    font-size: 23px;
+    font-weight: 700;
+    color: #000;
+    line-height: 26px;
+}
+
+.local-cidade{
+    display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    width: 58.33333%;
+}
+
+.local-cidade p strong{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.local-cidade p{
+    font-size: 15px;
+    color: #333;
+    letter-spacing: 1px;
+    padding: 0;
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+}
+
+
+
+.copy{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.agenda-cta{
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.info-link{
+    color:white;
+    text-decoration: none;
 }
 
 
 .rodape{
-  gap: 20px;
-  justify-content: center;
-  padding: 10px 0;
-  align-items: center;
-  flex-direction: column;
-}
-
+    gap: 20px;
+    justify-content: center;
+    padding: 10px 0;
+    align-items: center;
+    flex-direction: column;
+  }
