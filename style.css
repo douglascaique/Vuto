@@ -233,7 +233,7 @@ figure {
 
 .agenda-cta:hover {
     color: black;
-    background-color: white;
+    background-color: transparent;
     transition: all .3s ease 0s;
     border: #333 solid 1px;
 }
@@ -246,6 +246,8 @@ figure {
 .info-link {
     color: white;
     text-decoration: none;
+    font-weight: 700;
+    
 }
 
 .info-link:hover {
