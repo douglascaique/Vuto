@@ -152,7 +152,7 @@ nav a {
 .agenda-item {
     display: flex;
     gap: 40px;
-    width: 90%;
+    width: 75%;
     border-bottom: solid 1px #d4d4d4;
     padding-bottom: 30px;
     margin-bottom: 30px;
