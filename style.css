@@ -233,14 +233,15 @@ figure {
 
 .agenda-cta:hover {
     color: black;
-    background-color: transparent;
+    /* background-color: transparent; */
     transition: all .3s ease 0s;
-    border: #333 solid 1px;
+    border: #333 solid 0px;
+    box-shadow: #000 0px 0px 10px 0px;
 }
 
 /* Estilo para o link dentro do .agenda-cta quando em hover */
 .agenda-cta:hover .info-link {
-    color: black;
+    /* color: black; */
 }
 
 .info-link {
@@ -251,7 +252,7 @@ figure {
 }
 
 .info-link:hover {
-    color: black;
+    /* color: black; */
     transition: all .3s ease 0s;
 }
 
