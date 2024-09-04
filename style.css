@@ -271,6 +271,8 @@ figure {
 
 /* Telas menores que 768px */
 @media (max-width: 768px) {
+
+    
     .cabecalho {
         flex-direction: row;
         align-items: flex-start;
@@ -336,9 +338,6 @@ figure {
 
 /* Telas menores que 480px */
 @media (max-width: 480px) {
-    .body{
-        background-size: 500% 500%;
-    }
 
     .menu {
         font-size: 12px;
@@ -371,5 +370,46 @@ figure {
 
     .local-cidade p {
         font-size: 12px;
+    }
+}
+
+@media (max-width: 320px) {
+    body{
+        background-size: 500% 500%;
+    }
+
+    .banner {
+        font-size: 10vw;
+        padding: 20px 0;
+    }
+
+    .subtitle {
+        padding: 10px 5px;
+    }
+
+    .agenda-item {
+        gap: 5px;
+    }
+
+    .data-mes p strong {
+        font-size: 30px;
+    }
+
+    .data-mes p {
+        font-size: 15px;
+    }
+
+    .local-cidade p strong {
+        font-size: 15px;
+    }
+
+    .local-cidade p {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    body{
+        background-size: 500% 500%;
     }
 }
