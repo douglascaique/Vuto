@@ -324,7 +324,7 @@ figure {
     }
 
     .agenda-item {
-        flex-direction: column;
+        flex-direction: row;
         align-items: flex-start;
         gap: 20px;
     }
