@@ -263,6 +263,10 @@ figure {
 }
 
 @media (min-width: 769px) {
+
+    body{
+        background-size: 400% 400%;
+    }
     .menu-icon {
         display: none;
         /* Esconde o ícone do menu hamburger */
@@ -271,6 +275,9 @@ figure {
 
 /* Telas menores que 768px */
 @media (max-width: 768px) {
+    body{
+        background-size: 400% 400%;
+    }
 
     
     .cabecalho {
