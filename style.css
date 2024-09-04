@@ -336,6 +336,10 @@ figure {
 
 /* Telas menores que 480px */
 @media (max-width: 480px) {
+    .body{
+        background-size: 500% 500%;
+    }
+
     .menu {
         font-size: 12px;
     }
