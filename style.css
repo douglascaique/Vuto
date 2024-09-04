@@ -229,12 +229,28 @@ figure {
     border-radius: 5px;
     text-align: center;
     cursor: pointer;
+}
 
+.agenda-cta:hover {
+    color: black;
+    background-color: white;
+    transition: all .3s ease 0s;
+    border: #333 solid 1px;
+}
+
+/* Estilo para o link dentro do .agenda-cta quando em hover */
+.agenda-cta:hover .info-link {
+    color: black;
 }
 
 .info-link {
     color: white;
     text-decoration: none;
+}
+
+.info-link:hover {
+    color: black;
+    transition: all .3s ease 0s;
 }
 
 
